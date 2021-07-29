@@ -1,0 +1,21 @@
+{
+    "datetimeFormat": "%y/%m/%d %H:%M:%S",
+    "dynamodb_endpoint_url": "https://dynamodb.us-east-1.amazonaws.com",
+    "dynamodb_raw_data_table": "bsm_data",
+    "dynamodb_aggregate_data_table": "bsm_agg_data",
+    "dynamodb_rulalert_table": "bsm_alerts",
+    "sensors": [
+        {
+            "type": "Temperature",
+            "frequency": "15"
+        },
+        {
+            "type": "SPO2",
+            "frequency": "10"
+        },
+        {
+            "type": "HeartRate",
+            "frequency": "1"
+        }
+    ]
+}

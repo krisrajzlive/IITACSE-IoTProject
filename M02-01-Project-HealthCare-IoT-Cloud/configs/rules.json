@@ -1,0 +1,23 @@
+{
+    "rules": 
+        [
+        {
+            "type": "HeartRate", 
+            "avg_min": 85, 
+            "avg_max": 88,
+            "trigger_count": 2
+        },
+        {
+            "type": "Temperature", 
+            "avg_min": 98, 
+            "avg_max": 99,
+            "trigger_count": 4
+        },
+        {
+            "type": "SPO2", 
+            "avg_min": 89, 
+            "avg_max": 90,
+            "trigger_count": 2
+        }
+    ]
+}
